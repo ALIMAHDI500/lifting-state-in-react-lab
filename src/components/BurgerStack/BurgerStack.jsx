@@ -2,17 +2,13 @@
 
 const BurgerStack = ({stack,removeFromBurger}) => {
   return <ul> 
-
-  
-  
         {stack.map((ingredient, index) =>{
          return <li 
             key={index}
             style={{ backgroundColor: ingredient.color }} >
             <span>{ingredient.name}</span>
             <button
-              onClick={() => removeFromBurger(index)}
-            >
+              onClick={() => removeFromBurger(index)}>
               X
             </button>
           </li>

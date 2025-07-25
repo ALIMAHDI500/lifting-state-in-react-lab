@@ -51,9 +51,8 @@ ul {
   height: 100%;
 
   margin: 0;
-  padding: 16px;
+  padding:300px;
   list-style: none;
-
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -68,6 +67,7 @@ li {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  
 }
 
 button {

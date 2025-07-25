@@ -2,7 +2,6 @@
 const IngredientList = ( {ingredient, addToBurger}) => {
   
    
-       console.log(ingredient);
   return <ul> 
     
    
